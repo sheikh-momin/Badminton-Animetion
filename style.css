@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+.field{
+    width: 100%;
+    height: 500px;
+    border: 10px solid white;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+.cort{
+    height: 100%;
+    width: 10px;
+    background-color: white;
+}
+.cort2{
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    background-color: white;
+    top: 270px;
+    
+}
+.net {
+    width: 2%;
+    height: 350px;
+    margin-top: 150px;
+    background: silver;
+    position: relative;
+}
+.left-racket, .right-racket{
+    height: 300px;
+    position: relative;
+    top: 120px;
+}
+.corck{
+    position: relative;
+    height: 70px;
+    top: -120px;
+    left: -170px;
+}
+@keyframes serve {
+    0% {
+        top: -120px;
+        left: -170px;
+    }
+    50% {
+        top: 50px;
+    }
+    100%{
+        left: 1145px;
+    }
+}
